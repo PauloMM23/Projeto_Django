@@ -15,4 +15,10 @@ Criando um projeto Oython-Django
 
 1) clonar projeto
 2) criar e ativar a venv
-3)
+    python -m venv venv
+ ativar a venv    (deactivate desativa a venv)
+    windows -> .\venv\Scripts\activate
+3)baixar requirements.txt
+    python -m pip install -r requirements.txt
+4)iniciar servidor
+    python projeto/manage.py runserver
